@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <title>DEM</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body style="background-color: darkslategray;">
+    <div class="main">
+        <div class="h">
+            <img src="logo.png" alt="logo">
+            <h4>Daily Expanse Managment</h4>
+            <i class="fa-solid fa-bars" style="padding-left: 1.8rem;
+            font-size: 1.3rem;"></i>
+        </div>
+        <hr class="hr">
+        <div class="option">
+            <a href="daily.html"><b>Daily</b></a>
+            <a href="monthly.html"><b>Monthly</b></a>
+            <a href="yearly.html"><b>Yearly</b></a>
+        </div>
+        <hr>
+        Total Income (Credit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs.
+        <span class="total_inc"></span> 
+        <!-- <input type="number" class="total_inc" style="border:none;width: 5rem;"> -->
+        <div class="to">
+            <div style=" width: 13rem;">
+                <ul class="incom" style="margin-top: 0.1rem;">
+                    <li>Item</li>
+                </ul>
+            </div>
+            <div style="width: 5rem;">
+                <ul class="uls" style="margin-top: 0.1rem;">
+                    <li>Rs</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        Total Expanse (Debit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rs. <span class="total_exp"></span>
+        <!-- <input type="number" class="total_exp" style="border:none;width: 5rem;"> -->
+        <div class="cont">
+            <div style=" width: 13rem;">
+                <ul class="expa" style="margin-top: 0.1rem;">
+                    <li>Item</li>
+                </ul>
+            </div>
+            <div style="width: 5rem;">
+                <ul class="ulss" style="margin-top: 0.1rem;">
+                    <li>Rs</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="cal">
+            <form>
+                <div style="margin-top: 1rem; margin-bottom: -2rem;">
+                    &nbsp;<i class="fa-solid fa-shapes"></i>&nbsp;&nbsp;<input type="text" placeholder="Enter text"
+                        id="info">
+                    &nbsp;&nbsp;<i class="fa-solid fa-rupee-sign"></i>&nbsp;<input type="number" placeholder="Amount"
+                        id="amt">
+                </div>
+                <div class="calca">
+                    <h5 style="padding-left: 2rem; "><button class="inc"
+                            style="background-color: rgb(37, 233, 37);">Income</button></h5>
+                    <h5 style="padding-left: 1rem;">&nbsp;&nbsp;|</h5>
+                    <h5 style="padding-left: 2rem;"><button class="exp"
+                            style="background-color: rgb(231, 21, 21);">Expanse</button></h5>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="DEM.js"></script>
+</body>
+
+</html>

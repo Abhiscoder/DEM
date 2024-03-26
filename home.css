@@ -1,0 +1,91 @@
+.main{
+    border: 2px black solid;
+    width:300px;
+    height: 500px;
+    margin:auto;
+    background-color: #4ef037;
+    border-radius: 1rem;
+}
+img{
+    height: 2rem;
+    width: 2rem;
+}
+h4{
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+.hr{
+    margin-block-start: -0.5rem;
+}
+.h{
+    display: flex;
+    margin: 3% 0 0 2%;
+}
+.cont{
+    /* border: 2px solid black; */
+    width: 19.8rem;
+    height: 9.6rem;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    scrollbar-width: none;
+    display: flex;
+}
+.to{
+    /* border: 1px solid red; */
+    width: 19.8rem;
+    height: 8rem;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    scrollbar-width: none;
+    display: flex; 
+}
+.option{
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    font-size: 1.4rem;
+    margin-left: 0.8rem;
+    text-decoration: none;
+}
+.cal{
+    border: 2px solid #9d00ff;
+    height: 6rem;
+    border-radius: 1rem;
+}
+.calca{
+    display: flex;
+    font-size: 2rem;
+}
+.calcula{
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+    height: 3.7rem;
+}
+
+input{
+    border: none;
+    background-color: unset;
+    border-bottom: 0.1rem solid black;
+    width: 7rem;
+}
+textarea{
+    background: none;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    width: 16rem;
+}
+button{
+    /* border: none; */
+    /* background: none; */
+    margin-top: -2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+#b{
+    font-size: 3rem;
+    padding-top: 15rem; 
+    padding-left: 13rem;
+}
